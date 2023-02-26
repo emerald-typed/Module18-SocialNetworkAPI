@@ -2,6 +2,7 @@ const { Schema, model } = require('mongoose');
 
 const userSchema = new Schema(
   {
+
     username: {
       type: String,
       unique: true,
@@ -31,16 +32,17 @@ const userSchema = new Schema(
   },
   {
     toJSON: {
+      virtuals: true,
       getters: true,
     },
     id: false,
   }
 );
-userSchema
-  .virtual('friendCount')
-  // Getter
-  .get(function () {
-    return this.friends.length;
-});
+// userSchema
+//   .virtual('friendCount')
+//   // Getter
+//   .get(function () {
+//     return this.friends.length;
+// });
 const User = model('user', userSchema);
 module.exports = User;
