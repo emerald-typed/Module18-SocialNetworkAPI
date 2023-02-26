@@ -1,0 +1,28 @@
+{
+  "name": "module18-socialnetworkapi",
+  "version": "1.0.0",
+  "description": "Social Network API Using Mongoose and Express Node Packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KlyDesign/Module18-SocialNetworkAPI.git"
+  },
+  "keywords": [
+    "mongoose",
+    "express"
+  ],
+  "author": "Kly (KlyDesign/KyleHipple)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KlyDesign/Module18-SocialNetworkAPI/issues"
+  },
+  "homepage": "https://github.com/KlyDesign/Module18-SocialNetworkAPI#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
+  }
+}
