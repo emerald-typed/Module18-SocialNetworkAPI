@@ -1,7 +1,7 @@
 const { connect, connection } = require('mongoose');
 require('dotenv').config();
-
-connect(`mongodb+srv://@clusterkly.xf6nefj.mongodb.net/SocialDB`, {
+url = process.env.URL || 'mongodb://localhost/social-network-api';
+connect(`${url}`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
