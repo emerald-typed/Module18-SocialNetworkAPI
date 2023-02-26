@@ -1,7 +1,7 @@
 const { connect, connection } = require('mongoose');
 require('dotenv').config();
 
-connect(``, {
+connect(`mongodb+srv://@clusterkly.xf6nefj.mongodb.net/SocialDB`, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
