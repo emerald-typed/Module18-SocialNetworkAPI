@@ -8,6 +8,6 @@ router.route('/:id').get(getThoughtById).put(updateThought).delete(deleteThought
 
 router.route('/:thought_id/reactions').put(addReaction)
 
-router.route('/:thought_id/reactions/:reaction_id').delete(deleteReaction)
+router.route('/:thought_id/reactions/:reaction_Id').delete(deleteReaction)
 
 module.exports = router;

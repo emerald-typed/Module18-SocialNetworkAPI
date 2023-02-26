@@ -95,7 +95,7 @@ const mindController = {
     deleteReaction({ params }, res) {
         Thoughts.findOneAndUpdate(
             { _id: params.thought_id },
-            { $pull: { reactions: { reactionId: params.reactionId } } },
+            { $pull: { reactions: { reactionId: params.reaction_Id } } },
             { new: true }
         )
         .then(thoughtData => {
