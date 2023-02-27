@@ -1,4 +1,3 @@
-# 
 # **Module18-SocialNetworkAPI**
 
 ## Description
@@ -35,6 +34,7 @@ URL = "mongodb://localhost/socialnetwork"
 ### /api/thoughts/:id/reactions/:reactionId is the route for a specific thought's reactions
 
 ## Screenshot
+### ![Alt text](./assets/img/GETALLUSER.jpg "Optional Title")
 
 ## License
 ### The MIT License  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) 
